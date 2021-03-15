@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 1134e027003f8ca57888e0f7932bf4f8, type: 3}
+  m_Sprite: {fileID: 6109067598057838713, guid: 209c7cfb85ac07bc2a543e279748e0c7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -96,11 +96,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01c72f19fcda7387f8806dde615e01a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _hoverWire: {r: 0.8627451, g: 0.8235294, b: 0.15686275, a: 1}
-  wireSprite: {fileID: 21300000, guid: 57e85b6499900ff2d9fcecc03a60e005, type: 3}
-  baseSprite: {fileID: 21300000, guid: 1134e027003f8ca57888e0f7932bf4f8, type: 3}
+  wireNoConnection: {fileID: -7709219490482233514, guid: 209c7cfb85ac07bc2a543e279748e0c7, type: 3}
+  wireOneConnection: {fileID: -7361222493285165735, guid: 209c7cfb85ac07bc2a543e279748e0c7, type: 3}
+  wireTwoConnectionLine: {fileID: -2756189602532842038, guid: 209c7cfb85ac07bc2a543e279748e0c7, type: 3}
+  wireTwoConnectionCorner: {fileID: -8228063533496340950, guid: 209c7cfb85ac07bc2a543e279748e0c7, type: 3}
+  wireThreeConnection: {fileID: 7472026823586330605, guid: 209c7cfb85ac07bc2a543e279748e0c7, type: 3}
+  wireFourConnection: {fileID: -1574918626624602905, guid: 209c7cfb85ac07bc2a543e279748e0c7, type: 3}
+  noWire: {fileID: 6109067598057838713, guid: 209c7cfb85ac07bc2a543e279748e0c7, type: 3}
   hoverTint: {r: 0.8627451, g: 0.8235294, b: 0.15686275, a: 1}
-  hoveredTransparency: 0.3
+  hoverTransparency: 0.3
 --- !u!61 &8773627145122567093
 BoxCollider2D:
   m_ObjectHideFlags: 0
